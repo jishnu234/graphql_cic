@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:graphql_cic/screens/data_insertion_page.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 
 const productsGraphQL = """
@@ -140,7 +141,10 @@ class _MyHomePageState extends State<MyHomePage> {
         floatingActionButton: Padding(
           padding: const EdgeInsets.all(16.0),
           child: FloatingActionButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (ctx) => const UserInfo()));
+            },
             child: const Icon(Icons.send),
           ),
         ));
