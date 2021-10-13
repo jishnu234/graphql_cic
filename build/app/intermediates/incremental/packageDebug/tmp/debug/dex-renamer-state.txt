@@ -1,4 +1,4 @@
-#Tue Oct 12 02:00:19 IST 2021
+#Thu Oct 14 01:39:16 IST 2021
 base.0=/home/jishnu/FlutterProject/graphql_cic/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
